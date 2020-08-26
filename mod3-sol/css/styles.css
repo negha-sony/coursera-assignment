@@ -5,17 +5,11 @@ body {
 	background-color: #008B8B;
 }
 
-.navbar-brand p {
-	font-family: 'Lora', serif;
-	padding: 10px;
-	margin: 0;
-	font-size: 3.0em;
-	color: #000000;
-}
-#header-nav{
-	border: 0;
-	background-color: #ffffff;
-	border-radius: 0;
+h1{
+	color: #F0E68C;
+	font-weight: bold;
+	font-family: 'Londrina Solid', cursive;
+	text-align: center;
 }
 .container {
 	border: none;
@@ -25,43 +19,7 @@ body {
 	margin-bottom: 10px;
 	padding: 5px;
 }
-.navbar-brand a:focus, .navbar-brand a:hover {
-	text-decoration: none;
-}
-#nav-list {
-	margin-top:10px;
-	color: blue;
-}
-#nav-list a:hover {
-	color: #DEB887;
-	text-align: center;
-}
-#nav-list a p {
-	font-size: 1.8em;
-}
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
-}
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
-}
 
-hr {
-  border-color: white;
-}
-
-.item {
-  color: white;
-  font-size: 1.2em;
-}
-
-h1{
-	color: #F0E68C;
-	font-weight: bold;
-	font-family: 'Londrina Solid', cursive;
-	text-align: center;
-}
 section {
 	border:	1px solid black;
 	background-color: #DEB887;
@@ -79,7 +37,7 @@ section>p {
 	border: 1px solid black;
 	text-align: center;
 	width: 30%;
-	margin-left: 70%;
+	margin-left: 35%;
 	font-family: Georgia,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
@@ -93,7 +51,7 @@ section>p {
 	border: 1px solid black;
 	text-align: center;
 	width: 30%;
-	margin-left: 70%;
+	margin-left: 35%;
 	font-family: Georgia,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
@@ -107,7 +65,7 @@ section>p {
 	border: 1px solid black;
 	text-align: center;
 	width: 30%;
-	margin-left: 70%;
+	margin-left: 35%;
 	font-family: Georgia,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
@@ -132,3 +90,60 @@ section>p {
   margin-bottom: 10px;
   margin-top: 10px;
 }
+.navbar-brand {
+  border: 0 0 10px 10px;
+  font-family: 'Lora', serif;
+  font-size: 3.0em;
+ 
+}
+.nav {
+	background-color: #696969;
+}
+
+#header-nav{
+	border: 0;
+	background-color: #FFF8DC;
+	border-radius: 0;
+	color: #FFFFFF;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+.navbar-brand a:focus, .navbar-brand a:hover {
+	text-decoration: none;
+}
+.nav-header {
+  background-color: #FFFFFF;
+}
+
+.nav-brand {
+  color: #000000;
+  font-size: 1.5em;
+}
+
+#nav-list {
+	margin-top:10px;
+	color: blue;
+}
+#nav-list a:hover {
+	color: #DEB887;
+	text-align: center;
+}
+#nav-list a p {
+	font-size: 1.8em;
+}
+
+
+hr {
+  border-color: white;
+}
+
+.item {
+  color: white;
+  font-size: 1.2em;
+}
+
