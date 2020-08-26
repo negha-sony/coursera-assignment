@@ -117,7 +117,7 @@ section>p {
 	text-decoration: none;
 }
 .nav-header {
-  background-color: #FFFFFF;
+  background-color: #696969;
 }
 
 .nav-brand {
@@ -127,10 +127,10 @@ section>p {
 
 #nav-list {
 	margin-top:10px;
-	color: blue;
+	color: white;
 }
 #nav-list a:hover {
-	color: #DEB887;
+	color: #D6DBDF ;
 	text-align: center;
 }
 #nav-list a p {
